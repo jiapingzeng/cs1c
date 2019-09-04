@@ -1,0 +1,29 @@
+FEEDBACK:
+
+Good testing of your implementation especially with creative link names!
+
+
+-0 Why are you storing null in the current link? 
+   See sample output 1 below.
+   Type in a few links in your browser's address bar, then go back until
+   the back button is disabled. What do you see?
+   
+-Bita.
+
+
+	
+sample output 1:
+Forward (5 elements) 
+[ www.google.com news.google.com www.educationnews.org www.nytimes.com www.nytimes.com/pages/education ]
+
+
+At line #11: back
+Current Link: null
+
+Back (0 element) 
+[ ]
+
+Forward (5 elements) 
+[ www.google.com news.google.com www.educationnews.org www.nytimes.com www.nytimes.com/pages/education ]
+	
+	

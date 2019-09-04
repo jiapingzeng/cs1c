@@ -1,0 +1,22 @@
+FEEDBACK:
+
+Excellent testing of your LazySearchTree implementation, 
+    esp. in testing the boundary case when all nodes are deleted :)
+    
+    
+other comments:
+   Very compact if statements, makes it difficult to distinguish the different
+   conditions in your implementation:
+        int compareResult;
+        if (root == null) return null;
+        compareResult = x.compareTo(root.data);
+        if (compareResult < 0) root.left = removeHard(root.left, x);
+        else if (compareResult > 0) root.right = removeHard(root.right, x);
+        else if (root.left != null && root.right != null) {
+            if (!root.deleted) mSize--;
+            LazySTNode min = findMinHard(root.right);
+   			...
+   			
+   	Consider adding space for more readability.
+-Bita.
+

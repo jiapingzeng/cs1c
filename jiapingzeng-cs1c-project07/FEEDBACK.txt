@@ -1,0 +1,15 @@
+FEEDBACK:
+
+Excellent implementation of find and helper method findPosKey() 
+	in class FHhasQPwFind!
+	
+
+
+Nice testing of the FIND_SONG_BY_GENRE selection.
+
+	
+other comments:
+Yikes, in the wrapper classes the one-liner equals() method looks cryptic!
+
+-Bita.
+

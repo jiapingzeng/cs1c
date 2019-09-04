@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"stacks","l":"BrowserNavigation"},{"p":"stacks","l":"Navigator"},{"p":"stacks","l":"StackList"},{"p":"stacks","l":"StackList.Node"},{"p":"stacks","l":"StackList.StackIterator"}]

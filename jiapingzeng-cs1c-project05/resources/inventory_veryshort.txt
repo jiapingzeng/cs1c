@@ -1,0 +1,13 @@
+buy a
+buy b
+buy c
+add e
+add a
+add c
+add d
+buy a
+add a
+add a
+add b
+buy c
+buy c

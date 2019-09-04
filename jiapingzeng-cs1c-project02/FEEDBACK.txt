@@ -1,0 +1,24 @@
+FEEDBACK:
+
+Well done in investigating the TreeMap structure! Yes, this is more efficient 
+    when we are dealing with large sets of data.
+
+
+
+-0 Consider returning the empty set (instead of null) when all elements
+   are > target.
+   
+   
++0.5 Excellent documentation of your source code.
+
+
++0.5 Excellent description of the purpose of each test case in your RUN and README file.
+
+
+Extra Credit Opportunity:
++2 implementation of findSubset() for SongEntry type.
+
++2 clearly defined test cases for findSubset() method.   
+
+-Bita.
+

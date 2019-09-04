@@ -1,0 +1,544 @@
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/links.txt
+
+NOTES: Testing adding and removing items from back
+       and forward stacks.
+-----------------------------------------------------
+
+At line #1: link www.google.com
+Current Link: www.google.com
+
+Back (0 element) 
+[ ]
+
+Forward (0 element) 
+[ ]
+
+
+At line #2: link news.google.com
+Current Link: news.google.com
+
+Back (1 element) 
+[ www.google.com ]
+
+Forward (0 element) 
+[ ]
+
+
+At line #3: link www.educationnews.org
+Current Link: www.educationnews.org
+
+Back (2 elements) 
+[ news.google.com www.google.com ]
+
+Forward (0 element) 
+[ ]
+
+
+At line #4: link www.nytimes.com
+Current Link: www.nytimes.com
+
+Back (3 elements) 
+[ www.educationnews.org news.google.com www.google.com ]
+
+Forward (0 element) 
+[ ]
+
+
+At line #5: link www.nytimes.com/pages/education
+Current Link: www.nytimes.com/pages/education
+
+Back (4 elements) 
+[ www.nytimes.com www.educationnews.org news.google.com www.google.com ]
+
+Forward (0 element) 
+[ ]
+
+
+At line #6: back
+Current Link: www.nytimes.com
+
+Back (3 elements) 
+[ www.educationnews.org news.google.com www.google.com ]
+
+Forward (1 element) 
+[ www.nytimes.com/pages/education ]
+
+
+At line #7: back
+Current Link: www.educationnews.org
+
+Back (2 elements) 
+[ news.google.com www.google.com ]
+
+Forward (2 elements) 
+[ www.nytimes.com www.nytimes.com/pages/education ]
+
+
+At line #8: back
+Current Link: news.google.com
+
+Back (1 element) 
+[ www.google.com ]
+
+Forward (3 elements) 
+[ www.educationnews.org www.nytimes.com www.nytimes.com/pages/education ]
+
+
+At line #9: link www.technologyreview.com
+Current Link: www.technologyreview.com
+
+Back (2 elements) 
+[ news.google.com www.google.com ]
+
+Forward (0 element) 
+[ ]
+
+
+At line #10: back
+Current Link: news.google.com
+
+Back (1 element) 
+[ www.google.com ]
+
+Forward (1 element) 
+[ www.technologyreview.com ]
+
+
+At line #11: link www.techtimes.com
+Current Link: www.techtimes.com
+
+Back (2 elements) 
+[ news.google.com www.google.com ]
+
+Forward (0 element) 
+[ ]
+
+
+At line #12: link www.techtimes.com/biztech
+Current Link: www.techtimes.com/biztech
+
+Back (3 elements) 
+[ www.techtimes.com news.google.com www.google.com ]
+
+Forward (0 element) 
+[ ]
+
+
+At line #13: link www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm
+Current Link: www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm
+
+Back (4 elements) 
+[ www.techtimes.com/biztech www.techtimes.com news.google.com www.google.com ]
+
+Forward (0 element) 
+[ ]
+
+
+At line #14: back
+Current Link: www.techtimes.com/biztech
+
+Back (3 elements) 
+[ www.techtimes.com news.google.com www.google.com ]
+
+Forward (1 element) 
+[ www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm ]
+
+
+At line #15: back
+Current Link: www.techtimes.com
+
+Back (2 elements) 
+[ news.google.com www.google.com ]
+
+Forward (2 elements) 
+[ www.techtimes.com/biztech www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm ]
+
+
+At line #16: forward
+Current Link: www.techtimes.com/biztech
+
+Back (3 elements) 
+[ www.techtimes.com news.google.com www.google.com ]
+
+Forward (1 element) 
+[ www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm ]
+
+
+At line #17: forward
+Current Link: www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm
+
+Back (4 elements) 
+[ www.techtimes.com/biztech www.techtimes.com news.google.com www.google.com ]
+
+Forward (0 element) 
+[ ]
+
+
+At line #18: link www.java.com/en/java_in_action/alice.jsp
+Current Link: www.java.com/en/java_in_action/alice.jsp
+
+Back (5 elements) 
+[ www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm www.techtimes.com/biztech www.techtimes.com news.google.com www.google.com ]
+
+Forward (0 element) 
+[ ]
+
+Link news.foogle.com NOT found
+
+Link www.nytimes.com NOT found
+
+
+At line #21: link www.instructables.com
+Current Link: www.instructables.com
+
+Back (6 elements) 
+[ www.java.com/en/java_in_action/alice.jsp www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm www.techtimes.com/biztech www.techtimes.com news.google.com www.google.com ]
+
+Forward (0 element) 
+[ ]
+
+
+At line #22: link www.ign.com
+Current Link: www.ign.com
+
+Back (7 elements) 
+[ www.instructables.com www.java.com/en/java_in_action/alice.jsp www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm www.techtimes.com/biztech www.techtimes.com news.google.com www.google.com ]
+
+Forward (0 element) 
+[ ]
+
+
+At line #23: link www.ted.com
+Current Link: www.ted.com
+
+Back (8 elements) 
+[ www.ign.com www.instructables.com www.java.com/en/java_in_action/alice.jsp www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm www.techtimes.com/biztech www.techtimes.com news.google.com www.google.com ]
+
+Forward (0 element) 
+[ ]
+
+
+At line #24: back
+Current Link: www.ign.com
+
+Back (7 elements) 
+[ www.instructables.com www.java.com/en/java_in_action/alice.jsp www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm www.techtimes.com/biztech www.techtimes.com news.google.com www.google.com ]
+
+Forward (1 element) 
+[ www.ted.com ]
+
+
+At line #25: back
+Current Link: www.instructables.com
+
+Back (6 elements) 
+[ www.java.com/en/java_in_action/alice.jsp www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm www.techtimes.com/biztech www.techtimes.com news.google.com www.google.com ]
+
+Forward (2 elements) 
+[ www.ign.com www.ted.com ]
+
+Link www.ted.com found
+
+
+At line #27: link www.foogle.com
+Current Link: www.foogle.com
+
+Back (7 elements) 
+[ www.instructables.com www.java.com/en/java_in_action/alice.jsp www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm www.techtimes.com/biztech www.techtimes.com news.google.com www.google.com ]
+
+Forward (0 element) 
+[ ]
+
+Link www.ted.com NOT found
+
+
+
+At the end of test file resources/links.txt
+Current Link: www.foogle.com
+
+Back (7 elements) 
+[ www.instructables.com www.java.com/en/java_in_action/alice.jsp www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm www.techtimes.com/biztech www.techtimes.com news.google.com www.google.com ]
+
+Forward (0 element) 
+[ ]
+
+Done with BrowserNavigation.
+
+---------------------------------------------------
+---------------------------------------------------
+Test file: resources/popEmptyStackOfLinks.txt
+
+NOTES: Testing attempts to remove item from empty Back stack.
+---------------------------------------------------
+
+At line #1: link www.google.com
+Current Link: www.google.com
+
+Back (0 element)
+[ ]
+
+Forward (0 element)
+[ ]
+
+
+At line #2: link news.google.com
+Current Link: news.google.com
+
+Back (1 element)
+[ www.google.com ]
+
+Forward (0 element)
+[ ]
+
+
+At line #3: link www.educationnews.org
+Current Link: www.educationnews.org
+
+Back (2 elements)
+[ news.google.com www.google.com ]
+
+Forward (0 element)
+[ ]
+
+
+At line #4: link www.nytimes.com
+Current Link: www.nytimes.com
+
+Back (3 elements)
+[ www.educationnews.org news.google.com www.google.com ]
+
+Forward (0 element)
+[ ]
+
+
+At line #5: link www.nytimes.com/pages/education
+Current Link: www.nytimes.com/pages/education
+
+Back (4 elements)
+[ www.nytimes.com www.educationnews.org news.google.com www.google.com ]
+
+Forward (0 element)
+[ ]
+
+
+At line #6: back
+Current Link: www.nytimes.com
+
+Back (3 elements)
+[ www.educationnews.org news.google.com www.google.com ]
+
+Forward (1 element)
+[ www.nytimes.com/pages/education ]
+
+
+At line #7: back
+Current Link: www.educationnews.org
+
+Back (2 elements)
+[ news.google.com www.google.com ]
+
+Forward (2 elements)
+[ www.nytimes.com www.nytimes.com/pages/education ]
+
+
+At line #8: back
+Current Link: news.google.com
+
+Back (1 element)
+[ www.google.com ]
+
+Forward (3 elements)
+[ www.educationnews.org www.nytimes.com www.nytimes.com/pages/education ]
+
+
+At line #9: back
+Current Link: www.google.com
+
+Back (0 element)
+[ ]
+
+Forward (4 elements)
+[ news.google.com www.educationnews.org www.nytimes.com www.nytimes.com/pages/education ]
+
+
+At line #10: back
+Current Link: null
+
+Back (0 element)
+[ ]
+
+Forward (5 elements)
+[ www.google.com news.google.com www.educationnews.org www.nytimes.com www.nytimes.com/pages/education ]
+
+
+At line #11: back
+Current Link: null
+
+Back (0 element)
+[ ]
+
+Forward (5 elements)
+[ www.google.com news.google.com www.educationnews.org www.nytimes.com www.nytimes.com/pages/education ]
+
+
+
+At the end of test file resources/popEmptyStackOfLinks.txt
+Current Link: null
+
+Back (0 element)
+[ ]
+
+Forward (5 elements)
+[ www.google.com news.google.com www.educationnews.org www.nytimes.com www.nytimes.com/pages/education ]
+
+Done with BrowserNavigation.
+
+
+---------------------------------------------------
+---------------------------------------------------
+Test file: resources/weirdLinks.txt
+
+NOTES: further tests popping from empty stack
+---------------------------------------------------
+
+At line #1: back
+Current Link: null
+
+Back (0 element)
+[ ]
+
+Forward (0 element)
+[ ]
+
+
+At line #2: back
+Current Link: null
+
+Back (0 element)
+[ ]
+
+Forward (0 element)
+[ ]
+
+
+At line #3: back
+Current Link: null
+
+Back (0 element)
+[ ]
+
+Forward (0 element)
+[ ]
+
+
+At line #4: forward
+Current Link: null
+
+Back (0 element)
+[ ]
+
+Forward (0 element)
+[ ]
+
+
+At line #5: forward
+Current Link: null
+
+Back (0 element)
+[ ]
+
+Forward (0 element)
+[ ]
+
+
+At line #6: forward
+Current Link: null
+
+Back (0 element)
+[ ]
+
+Forward (0 element)
+[ ]
+
+
+At line #7: link website.com
+Current Link: website.com
+
+Back (0 element)
+[ ]
+
+Forward (0 element)
+[ ]
+
+Link website.com found
+
+
+At line #9: link website.com
+Current Link: website.com
+
+Back (1 element)
+[ website.com ]
+
+Forward (0 element)
+[ ]
+
+Link website.com found
+
+
+At line #11: back
+Current Link: website.com
+
+Back (0 element)
+[ ]
+
+Forward (1 element)
+[ website.com ]
+
+Link website.com found
+
+Link moc.etisbew NOT found
+
+
+At line #14: back
+Current Link: null
+
+Back (0 element)
+[ ]
+
+Forward (2 elements)
+[ website.com website.com ]
+
+
+At line #15: back
+Current Link: null
+
+Back (0 element)
+[ ]
+
+Forward (2 elements)
+[ website.com website.com ]
+
+
+At line #16: back
+Current Link: null
+
+Back (0 element)
+[ ]
+
+Forward (2 elements)
+[ website.com website.com ]
+
+
+
+At the end of test file resources/weirdLinks.txt
+Current Link: null
+
+Back (0 element)
+[ ]
+
+Forward (2 elements)
+[ website.com website.com ]
+
+Done with BrowserNavigation.

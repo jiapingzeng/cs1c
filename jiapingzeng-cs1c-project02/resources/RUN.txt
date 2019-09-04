@@ -1,0 +1,192 @@
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/groceries.txt
+budget: 1000000
+
+NOTES: Testing target budget > sum of all elements.
+-----------------------------------------------------
+
+The list of groceries has 8 items.
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+1000000
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 0 ms : 964628 ns
+Purchased grocery prices are:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+Done with ShoppingBag.
+
+
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/groceries.txt
+budget: 17.5
+
+NOTES: Testing set of elements found with sums
+       to exactly to target budget.
+-----------------------------------------------------
+
+The list of groceries has 8 items.
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+17.5
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 1 ms : 371371 ns
+Purchased grocery prices are:
+[2.5, 15.0]
+Done with ShoppingBag.
+
+
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/groceries.txt
+budget: 50.1
+
+NOTES: Testing target budget returning closest match.
+-----------------------------------------------------
+
+The list of groceries has 8 items.
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+50.1
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 1 ms : 965095 ns
+Purchased grocery prices are:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0]
+Done with ShoppingBag.
+
+
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/baddata.txt
+budget: N/A
+NOTES: Testing invalid data file to make sure file
+       reader doesn't throw error to main
+
+-----------------------------------------------------
+
+Received invalid file format. Please check your file and try again.
+
+
+-----------------------------------------------------
+-----------------------------------------------------
+Tests for FoothillTunesStore.java
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/music_genre_subset.json
+duration (in minutes): 81.5
+
+NOTES: Testing set of songs found with total duration
+       to exactly to target duration.
+-----------------------------------------------------
+
+Welcome! We have over 59600 in FoothillTunes store!
+
+Enter the duration of your play list:
+81.5
+Received list of songs with total duration 14892082 seconds
+Generating playlist with total duration of 4890 seconds
+Found playlist with duration 4890 seconds
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 22 ms : 196711 ns
+Songs in play list:
+[Me 262, 0:8:9, Blue Oyster Cult, classic pop and rock
+, Don't Fear The Reaper, 0:6:5, Blue Oyster Cult, classic pop and rock
+, E.T.I. (Extra Terrestrial Intelligence), 0:3:47, Blue Oyster Cult, classic pop and rock
+, Godzilla, 0:7:50, Blue Oyster Cult, classic pop and rock
+, Dominenance And Submission, 0:5:50, Blue Oyster Cult, classic pop and rock
+, What Is Quicksand, 0:3:41, Blue Oyster Cult, classic pop and rock
+, Workshop Of The Telescopes, 0:4:2, Blue Oyster Cult, classic pop and rock
+, Redeemed, 0:3:52, Blue Oyster Cult, classic pop and rock
+, Screams, 0:3:10, Blue Oyster Cult, classic pop and rock
+, Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+, Spray That Scumbag - Original, 0:1:44, Blue Oyster Cult, classic pop and rock
+, Demon's Kiss - Original, 0:3:53, Blue Oyster Cult, classic pop and rock
+, Out Of Stadion - Original, 0:1:22, Blue Oyster Cult, classic pop and rock
+, True Confessions, 0:2:58, Blue Oyster Cult, classic pop and rock
+, The Revenge Of Vera Gemini, 0:3:51, Blue Oyster Cult, classic pop and rock
+, Morning Final, 0:4:15, Blue Oyster Cult, classic pop and rock
+, (Don't Fear) The Reaper, 0:5:8, Blue Oyster Cult, classic pop and rock
+, Debbie Denise, 0:4:11, Blue Oyster Cult, classic pop and rock
+, Screams, 0:3:10, Blue Oyster Cult, classic pop and rock
+, Mes Dames Sarat, 0:4:7, Blue Oyster Cult, classic pop and rock
+]
+Done with FoothillTunesStore.
+
+
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/music_small.json
+duration (in minutes): 10000000
+
+NOTES: Testing set of songs found with total duration
+       > target duration.
+       Using custom input file with only 10 entries
+       because playlist is too long when using
+       music_genre_subset.json.
+-----------------------------------------------------
+
+Welcome! We have over 10 in FoothillTunes store!
+
+Enter the duration of your play list:
+10000000
+Received list of songs with total duration 1996 seconds
+Generating playlist with total duration of 600000000 seconds
+Target duration is greater than length of all songs combined
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 1 ms : 113545 ns
+Songs in play list:
+[Mes Dames Sarat, 0:4:7, Blue Oyster Cult, classic pop and rock
+, Screams, 0:3:10, Blue Oyster Cult, classic pop and rock
+, Dance The Night Away, 0:2:39, Blue Oyster Cult, classic pop and rock
+, Debbie Denise, 0:4:11, Blue Oyster Cult, classic pop and rock
+, (Don't Fear) The Reaper, 0:5:8, Blue Oyster Cult, classic pop and rock
+, Morning Final, 0:4:15, Blue Oyster Cult, classic pop and rock
+, The Revenge Of Vera Gemini, 0:3:51, Blue Oyster Cult, classic pop and rock
+, True Confessions, 0:2:58, Blue Oyster Cult, classic pop and rock
+, Out Of Stadion - Original, 0:1:22, Blue Oyster Cult, classic pop and rock
+, Ginger Snaps - Original, 0:1:35, Blue Oyster Cult, classic pop and rock
+]
+Done with FoothillTunesStore.
+
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/music_small.json
+duration (in minutes): 33.25
+
+NOTES: Testing target duration returning closest
+       match.
+       Using custom input file with only 10 entries
+       because I tested music_genre_subset.json with
+       input duration 81.50-300.00 with increment
+       0.01 and couldn't find a target duration that
+       didn't result in an exact match.
+-----------------------------------------------------
+
+Welcome! We have over 10 in FoothillTunes store!
+
+Enter the duration of your play list:
+33.25
+Received list of songs with total duration 1996 seconds
+Generating playlist with total duration of 1995 seconds
+Found playlist with duration 1914 seconds
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 6 ms : 218958 ns
+Songs in play list:
+[Ginger Snaps - Original, 0:1:35, Blue Oyster Cult, classic pop and rock
+, True Confessions, 0:2:58, Blue Oyster Cult, classic pop and rock
+, The Revenge Of Vera Gemini, 0:3:51, Blue Oyster Cult, classic pop and rock
+, Morning Final, 0:4:15, Blue Oyster Cult, classic pop and rock
+, (Don't Fear) The Reaper, 0:5:8, Blue Oyster Cult, classic pop and rock
+, Debbie Denise, 0:4:11, Blue Oyster Cult, classic pop and rock
+, Dance The Night Away, 0:2:39, Blue Oyster Cult, classic pop and rock
+, Screams, 0:3:10, Blue Oyster Cult, classic pop and rock
+, Mes Dames Sarat, 0:4:7, Blue Oyster Cult, classic pop and rock
+]
+Done with FoothillTunesStore.

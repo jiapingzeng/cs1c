@@ -1,0 +1,74 @@
+{
+  "songs": [
+    {
+      "genre": "classic pop and rock",
+      "artist_name": "Blue Oyster Cult",
+      "title": "Mes Dames Sarat",
+      "duration": "246.33424",
+      "song_id": "000001"
+    },
+    {
+      "genre": "classic pop and rock",
+      "artist_name": "Blue Oyster Cult",
+      "title": "Screams",
+      "duration": "189.80526",
+      "song_id": "000002"
+    },
+    {
+      "genre": "classic pop and rock",
+      "artist_name": "Blue Oyster Cult",
+      "title": "Dance The Night Away",
+      "duration": "158.1971",
+      "song_id": "000003"
+    },
+    {
+      "genre": "classic pop and rock",
+      "artist_name": "Blue Oyster Cult",
+      "title": "Debbie Denise",
+      "duration": "250.22649",
+      "song_id": "000004"
+    },
+    {
+      "genre": "classic pop and rock",
+      "artist_name": "Blue Oyster Cult",
+      "title": "(Don't Fear) The Reaper",
+      "duration": "307.06893",
+      "song_id": "000005"
+    },
+    {
+      "genre": "classic pop and rock",
+      "artist_name": "Blue Oyster Cult",
+      "title": "Morning Final",
+      "duration": "254.17098",
+      "song_id": "000006"
+    },
+    {
+      "genre": "classic pop and rock",
+      "artist_name": "Blue Oyster Cult",
+      "title": "The Revenge Of Vera Gemini",
+      "duration": "230.32118",
+      "song_id": "000007"
+    },
+    {
+      "genre": "classic pop and rock",
+      "artist_name": "Blue Oyster Cult",
+      "title": "True Confessions",
+      "duration": "177.55383",
+      "song_id": "000008"
+    },
+    {
+      "genre": "classic pop and rock",
+      "artist_name": "Blue Oyster Cult",
+      "title": "Out Of Stadion - Original",
+      "duration": "81.24036",
+      "song_id": "000009"
+    },
+    {
+      "genre": "classic pop and rock",
+      "artist_name": "Blue Oyster Cult",
+      "title": "Ginger Snaps - Original",
+      "duration": "94.24934",
+      "song_id": "000010"
+    }
+  ]
+}

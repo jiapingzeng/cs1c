@@ -1,0 +1,13 @@
+FEEDBACK:
+
+Excellent testing of your LazySearchTree implementation.
+
+
+Nice clean implementation of your LazySearchTree class with lazy deletion!
+
+
+Good concise description in your README. Consider adding a brief summary of
+   your test cases.
+
+-Bita.
+

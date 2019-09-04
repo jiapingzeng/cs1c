@@ -1,0 +1,168 @@
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/tunes.txt
+
+NOTES: Testing adding and removing items from queues.
+-----------------------------------------------------
+
+Welcome! We have over 59600 in FoothillTunes store!
+Total number of songs in playlists: 16
+
+Songs in each playlist:
+
+favorites
+[Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+Take Me Away, 0:4:6, Malachi, pop
+Stoned, 0:5:56, Dido, classic pop and rock
+We Belong, 0:8:43, DT8 Project, dance and electronica
+Stairway To The Stars, 0:3:9, Natalie Cole, jazz and blues]
+
+lounge
+[Solo, 0:6:43, Ludovico Einaudi, classical
+Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+Luka, 0:3:52, Suzanne Vega, classic pop and rock
+Traffic, 0:4:5, Dawn Landes, classic pop and rock]
+
+road trip
+[Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+Here With Me, 0:4:5, Dido, classic pop and rock
+Get Happy, 0:2:40, Clare Teal, jazz and blues
+Let's Dance, 0:4:7, David Bowie, soul and reggae
+Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock
+Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock
+Road Home, 0:3:21, Bugge Wesseltoft, jazz and blues]
+
+Enter your the number of songs you would like to play:
+7
+
+Playing 7 number of songs...
+Playing song title "Shadows - Original"
+Playing song title "Solo"
+Playing song title "Tom's Diner"
+Playing song title "Take Me Away"
+Playing song title "Nuvole Bianche"
+Playing song title "Here With Me"
+Playing song title "Stoned"
+
+Checking the size of each playlist:
+Playlist "favorites" is 2 song(s) remaining.
+Playlist "lounge" is 2 song(s) remaining.
+Playlist "road trip" is 5 song(s) remaining.
+
+Songs in each list:
+
+favorites
+[We Belong, 0:8:43, DT8 Project, dance and electronica
+Stairway To The Stars, 0:3:9, Natalie Cole, jazz and blues]
+
+lounge
+[Luka, 0:3:52, Suzanne Vega, classic pop and rock
+Traffic, 0:4:5, Dawn Landes, classic pop and rock]
+
+road trip
+[Get Happy, 0:2:40, Clare Teal, jazz and blues
+Let's Dance, 0:4:7, David Bowie, soul and reggae
+Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock
+Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock
+Road Home, 0:3:21, Bugge Wesseltoft, jazz and blues]
+
+Done with MyTunes.
+
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/tunes_truncated.txt
+
+NOTES: Testing removing items from empty queues.
+-----------------------------------------------------
+
+Welcome! We have over 59600 in FoothillTunes store!
+Total number of songs in playlists: 3
+
+Songs in each playlist:
+
+favorites
+[Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock]
+
+lounge
+[Solo, 0:6:43, Ludovico Einaudi, classical]
+
+road trip
+[Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock]
+
+Enter your the number of songs you would like to play:
+7
+
+Playing 7 number of songs...
+Playing song title "Shadows - Original"
+Playing song title "Solo"
+Playing song title "Tom's Diner"
+
+Checking the size of each playlist:
+Playlist "favorites" has *no* songs remaining.
+Playlist "lounge" has *no* songs remaining.
+Playlist "road trip" has *no* songs remaining.
+
+Songs in each list:
+
+favorites
+[ ]
+
+lounge
+[ ]
+
+road trip
+[ ]
+
+Done with MyTunes.
+
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/tunes_invalid.txt
+
+NOTES: Testing non-existent songs and playlists.
+-----------------------------------------------------
+
+Welcome! We have over 59600 in FoothillTunes store!
+Invalid playlist name "notanactuallist". Please check your playlist names.
+Unable to find song "nonexistent song". Please make sure you have the correct song title
+Total number of songs in playlists: 3
+
+Songs in each playlist:
+
+favorites
+[Stoned, 0:5:56, Dido, classic pop and rock]
+
+lounge
+[Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+Luka, 0:3:52, Suzanne Vega, classic pop and rock]
+
+road trip
+[ ]
+
+Enter your the number of songs you would like to play:
+7
+
+Playing 7 number of songs...
+Playing song title "Stoned"
+Playing song title "Nuvole Bianche"
+WARNING: playlist "road trip" is empty!
+WARNING: playlist "favorites" is empty!
+Playing song title "Luka"
+
+Checking the size of each playlist:
+Playlist "favorites" has *no* songs remaining.
+Playlist "lounge" has *no* songs remaining.
+Playlist "road trip" has *no* songs remaining.
+
+Songs in each list:
+
+favorites
+[ ]
+
+lounge
+[ ]
+
+road trip
+[ ]
+
+Done with MyTunes.
